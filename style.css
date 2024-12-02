@@ -1,0 +1,149 @@
+/* Cores 
+ #F2F2F2
+#F2C8C4
+#8C644D
+#092B40
+#ACB7F2 */
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Delius+Swash+Caps&family=DynaPuff:wght@400..700&family=Ephesis&family=Lobster&family=Margarine&family=Quicksand:wght@300..700&family=Ribeye+Marrow&family=Righteous&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Delius+Swash+Caps&family=DynaPuff:wght@400..700&family=Ephesis&family=Lobster&family=Margarine&family=Quicksand:wght@300..700&family=Quintessential&family=Ribeye+Marrow&family=Righteous&display=swap');
+
+body{ 
+  background-color: #7E4D20 !important;
+  overflow-x: hidden;
+}
+
+.bordas{
+  border-radius: 2px solid black;
+}
+
+.cabecalho{
+
+
+  padding: 3vh;
+}
+
+.cabecalho > p{
+  color: #AFB5F1;
+  font-size: 7vh;
+  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+  font-family: "Lobster", sans-serif;
+}
+
+.cabecalho > p > img{
+  width: 11vh;
+  height: 10vh;
+  margin-right: 3vh;
+}
+
+.bannerPrincipal {
+    width: 600px; 
+    margin: 0 auto; 
+    margin-bottom: 20vh;
+    margin-top: 5vh;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.815);
+
+  }
+
+.text_banner_principal{
+    background-color: #7e4d20c2 ;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 8px black;
+    padding: 3vh;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.815);
+    font-family: "Lobster", sans-serif;
+  }
+
+  #imagem {
+    height: 600px; 
+    object-fit: cover; 
+  }
+
+.destaques{
+    width: 400px;
+    margin: auto;
+    box-shadow: 6px 6px 20px black;
+    font-family: "Lobster", sans-serif;
+    font-size: 22px;
+    text-align: left;
+    background-color: #0093E9;
+} 
+
+.card-body > h5{
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 1px rgba(255, 215, 0, 0.7);
+  background: linear-gradient(45deg, #ffd700, #ffcc00, #ffb700);
+}
+
+.fundoDestaques{
+  background-image: url(img/fundoMenu.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  background-color: #7E4D20;
+}
+.card-img-top{
+    height: 400px;
+}
+
+.sobre_nos{
+  font-size: 2.5vh;
+  text-align: justify;
+  line-height: 2.8vh;
+  font-family: "Quintessential", serif;
+}
+
+.fundo_sobre-nos{
+  max-width: 1000px;
+  box-shadow: 6px 6px 20px black;
+}
+
+.conteudo_rodape{
+  text-align: center;
+}
+
+#icone_instagram{
+  width: 5vh;
+  margin: 1vh;
+}
+
+
+.botao_instagram{
+  
+  background-color: #8A3AB9;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 15px black; 
+}
+
+.botao_instagram:hover{
+  box-shadow: 2 10 20px black; 
+  background: linear-gradient(45deg, #F58529, #D22E86, #8A3AB9, #0093E9);
+}
+
+
+.animacao{
+  transition: transform 0.3s ease;
+}
+
+.animacao:hover{
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes moverParaDireita {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.elemento {
+  animation: moverParaDireita 1.5s ease-out; 
+}
+
